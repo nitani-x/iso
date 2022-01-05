@@ -1,0 +1,1 @@
+# To use this script, fill this file with quotes or text you'd like to display when your terminal opens.

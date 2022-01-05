@@ -1,0 +1,8 @@
+NAME='ArchLan'
+PRETTY_NAME='ArchLan Linux'
+ID=archlan
+ID_LIKE=arch
+HOME_URL='https://archlan.github.io'
+DOCUMENTATION_URL='https://archlan.github.io/documentation'
+BUG_REPORT_URL='https://github.com/archlan/iso/issues/new'
+LOGO=archlan
