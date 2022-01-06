@@ -19,4 +19,5 @@ file_permissions=(
   ["/root"]="0:0:750"
   ["/root/.automated_script.sh"]="0:0:755"
   ["/usr/local/bin/choose-mirror"]="0:0:755"
+  ["/etc/skel/.config/i3/scripts/*"]="0:0:750"
 )
