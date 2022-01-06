@@ -16,7 +16,7 @@
 
 
 # Check mouse event
-case $BLOCK_BUTTON in
+case ${BLOCK_BUTTON} in
     3)
     #/usr/bin/amixer set Capture toggle &>/dev/null;  # AlsaMixer
     /usr/bin/pactl set-source-mute 1 toggle;  # PulseAudio

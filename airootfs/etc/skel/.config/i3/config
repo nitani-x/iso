@@ -8,8 +8,8 @@
 set $kyoto Mod4
 
 # Set preferred terminal emulator
-#set $term alacritty --config-file $HOME/.config/i3/alacritty/alacritty.yml
-set $term kitty --config $HOME/.config/i3/kitty/kitty.conf
+set $term alacritty --config-file $HOME/.config/i3/alacritty/alacritty.yml
+#set $term kitty --config $HOME/.config/i3/kitty/kitty.conf
 
 # Set floating modifier
 floating_modifier Mod1
@@ -42,6 +42,7 @@ exec --no-startup-id wal -i $HOME/.config/i3/default.png || feh --bg-fill $HOME/
 #############
 # Lock the screen - This is not a secure way to lock the screen, you better use something like i3lock
 bindsym $kyoto+l exec dm-tool switch-to-greeter
+#bindsym $kyoto+l exec i3lock
 
 # Adjust the volume
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q set Master 5%+ unmute
@@ -98,11 +99,11 @@ bindsym $kyoto+space focus mode_toggle
 # Workspaces keybinds
 #####################
 # Set workspaces names
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
+set $ws1 "1:Ichi"
+set $ws2 "2:Ni"
+set $ws3 "3:San"
+set $ws4 "4:Shi"
+set $ws5 "5:Go"
 
 # Switch workspaces
 bindsym $kyoto+1 workspace number $ws1
@@ -175,7 +176,7 @@ bar {
 		status_command i3blocks -c ~/.config/i3/i3blocks.conf
 	    	position top 
 		    tray_output primary
-		    tray_padding 0
+		    tray_padding 3
 
 strip_workspace_numbers yes
 

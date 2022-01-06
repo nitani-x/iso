@@ -53,6 +53,7 @@ sed -i 's/#\(PermitRootLogin \).\+/\1yes/' "/etc/ssh/sshd_config"
 # enable systemd services
 systemctl enable NetworkManager.service
 systemctl enable display-manager.service
+systemctl enable bluetooth.service
 systemctl enable vboxservice.service vmtoolsd.service vmware-vmblock-fuse.service
 systemctl set-default multi-user.target
 # revert from arch-iso preset to default preset
