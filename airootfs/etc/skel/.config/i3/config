@@ -28,6 +28,9 @@ font pango:Noto Sans Regular 10
 ########################
 # Autostart Applications
 ########################
+# Start compositor
+exec --no-startup-id picom --config $HOME/.config/i3/picom.conf
+
 # Start bluetooth applet
 exec --no-startup-id blueman-applet &
 

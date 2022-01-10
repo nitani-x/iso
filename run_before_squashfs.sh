@@ -51,10 +51,9 @@ sed -i 's/#\(PermitRootLogin \).\+/\1yes/' "/etc/ssh/sshd_config"
 #sed -i 's/#\(HandleHibernateKey=\)hibernate/\1ignore/' "/etc/systemd/logind.conf"
 #sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' "/etc/systemd/logind.conf"
 # enable systemd services
-systemctl enable NetworkManager.service
-systemctl enable display-manager.service
+systemctl enable lightdm.service
 systemctl enable bluetooth.service
-systemctl enable vboxservice.service vmtoolsd.service vmware-vmblock-fuse.service
+systemctl enable NetworkManager.service
 systemctl set-default multi-user.target
 # revert from arch-iso preset to default preset
 cp -rf "/usr/share/mkinitcpio/hook.preset" "/etc/mkinitcpio.d/linux.preset"
@@ -67,19 +66,8 @@ rm "/boot/amd-ucode.img"
 rm "/boot/initramfs-linux.img"
 rm "/boot/intel-ucode.img"
 rm "/boot/vmlinuz-linux"
-
-# to install locally builded packages on ISO:
-pacman -U --noconfirm "/root/pywal-git-3.3.0.r134.g236aa48-1-any.pkg.tar.zst" "/root/yay-11.1.0-1-x86_64.pkg.tar.zst"
-rm "/root/pywal-git-3.3.0.r134.g236aa48-1-any.pkg.tar.zst" "/root/yay-11.1.0-1-x86_64.pkg.tar.zst"
-
-# fix packages that we want to keep but they would get uninstalled caused by dependency removals
-pacman -D --asexplicit sshfs rsync reiserfsprogs python-packaging
 #rm "/var/log/pacman.log"
 # custom fixes currently needed:
-# get extra drivers!
-mkdir "/opt/extra-drivers"
-sudo pacman -Sw --noconfirm --cachedir "/opt/extra-drivers" r8168
-rm "/var/log/pacman.log"
 ############################
 # end chrooted commandlist #
 ############################

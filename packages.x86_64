@@ -6,7 +6,7 @@
 #    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/05 21:14:29 by Lanhild           #+#    #+#              #
-#    Updated: 2022/01/05 21:14:39 by Lanhild          ###   ########.fr        #
+#    Updated: 2022/01/10 11:34:56 by Lanhild          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -131,6 +131,22 @@ xfsprogs
 xl2tpd
 zsh
 
+##- Graphics Drivers
+nvidia
+nvidia-settings
+xorg-drivers
+xf86-video-intel
+
+##- Window Managers related packages
+alacritty
+dunst
+i3
+ranger
+rofi
+flameshot
+feh
+imagemagick
+
 ##- Basic packages
 lightdm
 lightdm-webkit2-greeter
@@ -151,19 +167,55 @@ pulseaudio
 pulseaudio-bluetooth
 pavucontrol
 yad
+light
+xorg-xbacklight
+thunar
 
-##- Window Manager
-alacritty
-dunst
-i3
-ranger
-rofi
-flameshot
-feh
-imagemagick
+##- ArchLan Linux repository
+####- ArchLan-specific packages
+archlan-welcome
+archlan-fonts
+archlan-pixmaps
+archlan-artworks
+archlan-about
+archlan-scripts
+archlan-install-scripts
+archlan-hooks
+archlan-mirrorlist
+archlan-plymouth-theme
+archlan-wallpapers-branding
 
-##- Drivers
-nvidia
-nvidia-settings
-xorg-drivers
-xf86-video-intel
+####- Misc packages
+plymouth
+yay
+pywal
+picom-ibhagwan-git
+
+####- Calamares and dependencies
+################ Comes from the ArchLan repo
+calamares
+calamares-config
+################
+
+lsb-release
+libpwquality
+qt5-svg
+qt5-webengine
+yaml-cpp
+extra-cmake-modules
+boost-libs
+upower
+kcoreaddons
+kconfig
+ki18n
+kservice
+kpmcore
+parted
+qt5-xmlpatterns
+doxygen
+dmidecode
+kparts
+polkit-qt5
+python
+solid
+qt5-tools
