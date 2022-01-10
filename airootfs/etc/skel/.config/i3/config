@@ -34,6 +34,9 @@ exec --no-startup-id picom --config $HOME/.config/i3/picom.conf
 # Start bluetooth applet
 exec --no-startup-id blueman-applet &
 
+# Start nm-applet
+exec --no-startup-id nm-applet &
+
 # Start notifications daemon
 exec --no-startup-id dunst -config $HOME/.config/i3/dunst/dunstrc &
 

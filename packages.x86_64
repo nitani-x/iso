@@ -6,7 +6,7 @@
 #    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/05 21:14:29 by Lanhild           #+#    #+#              #
-#    Updated: 2022/01/10 11:39:41 by Lanhild          ###   ########.fr        #
+#    Updated: 2022/01/10 11:52:21 by Lanhild          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -160,6 +160,7 @@ git
 gnupg
 acpi
 networkmanager
+network-manager-applet
 bluez
 bluez-utils
 blueman
