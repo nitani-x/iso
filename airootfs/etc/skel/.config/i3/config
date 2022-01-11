@@ -180,7 +180,7 @@ client.background       $bg
 bar {
 		font pango:Noto Sans Regular 10, FontAwesome 10
 		status_command i3blocks -c ~/.config/i3/i3blocks.conf
-	    	position top 
+	    	position top
 		    tray_output primary
 		    tray_padding 3
 
@@ -197,3 +197,4 @@ strip_workspace_numbers yes
 		urgent_workspace	$bg	    	$bg	$fg	$bg 
 	}
 }
+exec --no-startup-id archlan-welcome

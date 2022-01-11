@@ -6,7 +6,7 @@
 #    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/05 21:14:29 by Lanhild           #+#    #+#              #
-#    Updated: 2022/01/10 11:52:21 by Lanhild          ###   ########.fr        #
+#    Updated: 2022/01/11 17:21:13 by Lanhild          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -175,6 +175,7 @@ thunar
 ##- ArchLan Linux repository
 ####- ArchLan-specific packages
 archlan-welcome
+archlan-zsh
 archlan-fonts
 archlan-pixmaps
 archlan-artworks
@@ -187,6 +188,7 @@ archlan-plymouth-theme
 archlan-wallpapers-branding
 
 ####- Misc packages
+starship
 plymouth
 yay
 pywal
