@@ -1,6 +1,0 @@
-[theme]
-name=ArchLan
-description=Default lightdm webkit2 theme for ArchLan
-engine=lightdm-webkit2-greeter
-url=index.html
-session=i3
