@@ -6,7 +6,7 @@
 #    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/05 21:14:29 by Lanhild           #+#    #+#              #
-#    Updated: 2022/01/13 10:12:21 by Lanhild          ###   ########.fr        #
+#    Updated: 2022/01/16 21:36:35 by Lanhild          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -187,6 +187,9 @@ archlan-hooks
 archlan-mirrorlist
 archlan-plymouth-theme
 archlan-wallpapers-branding
+archlan-theme-cloudy
+archlan-cursor-fuschia
+archlan-icons-colloid
 
 ####- Misc packages
 starship
