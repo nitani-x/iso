@@ -6,7 +6,7 @@
 #    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/05 21:14:29 by Lanhild           #+#    #+#              #
-#    Updated: 2022/01/16 21:36:35 by Lanhild          ###   ########.fr        #
+#    Updated: 2022/01/21 15:48:02 by Lanhild          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -174,22 +174,11 @@ thunar
 
 ##- ArchLan Linux repository
 ####- ArchLan-specific packages
-archlan-lightdm-webkit2-theme
-archlan-welcome
-archlan-zsh
-archlan-fonts
-archlan-pixmaps
-archlan-artworks
-archlan-about
-archlan-scripts
+archlan-de
 archlan-install-scripts
 archlan-hooks
 archlan-mirrorlist
 archlan-plymouth-theme
-archlan-wallpapers-branding
-archlan-theme-cloudy
-archlan-cursor-fuschia
-archlan-icons-colloid
 
 ####- Misc packages
 starship
