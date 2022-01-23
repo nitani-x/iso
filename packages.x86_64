@@ -6,7 +6,7 @@
 #    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/05 21:14:29 by Lanhild           #+#    #+#              #
-#    Updated: 2022/01/21 15:48:02 by Lanhild          ###   ########.fr        #
+#    Updated: 2022/01/23 12:39:38 by Lanhild          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -140,8 +140,8 @@ xf86-video-intel
 ##- Window Managers related packages
 alacritty
 dunst
-i3
-ranger
+polybar
+i3-gaps
 rofi
 flameshot
 feh
