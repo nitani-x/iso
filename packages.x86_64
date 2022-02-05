@@ -6,7 +6,7 @@
 #    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/05 21:14:29 by Lanhild           #+#    #+#              #
-#    Updated: 2022/01/23 12:39:38 by Lanhild          ###   ########.fr        #
+#    Updated: 2022/02/05 12:59:31 by Lanhild          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,7 +46,6 @@ gnu-netcat
 gpart
 gpm
 gptfdisk
-grml-zsh-config
 grub
 hdparm
 intel-ucode
@@ -132,6 +131,11 @@ xl2tpd
 zsh
 
 ##- Graphics Drivers
+xf86-video-fbdev
+xf86-video-vesa
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-nouveau
 nvidia
 nvidia-settings
 xorg-drivers
@@ -146,6 +150,8 @@ rofi
 flameshot
 feh
 imagemagick
+pywal
+picom-ibhagwan-git
 
 ##- Basic packages
 lightdm
@@ -153,14 +159,12 @@ lightdm-webkit2-greeter
 xorg-server
 xorg-xinit
 firefox
-code
 base-devel
 cmake
 git
 gnupg
 acpi
 networkmanager
-network-manager-applet
 bluez
 bluez-utils
 blueman
@@ -168,24 +172,19 @@ pulseaudio
 pulseaudio-bluetooth
 pavucontrol
 yad
-light
 xorg-xbacklight
 thunar
 
 ##- ArchLan Linux repository
 ####- ArchLan-specific packages
 archlan-de
-archlan-install-scripts
-archlan-hooks
-archlan-mirrorlist
+archlan-core
 archlan-plymouth-theme
 
 ####- Misc packages
 starship
 plymouth
 yay
-pywal
-picom-ibhagwan-git
 
 ####- Calamares and dependencies
 ################ Comes from the ArchLan repo
@@ -206,10 +205,7 @@ kconfig
 ki18n
 kservice
 kpmcore
-parted
 qt5-xmlpatterns
-doxygen
-dmidecode
 kparts
 polkit-qt5
 python
